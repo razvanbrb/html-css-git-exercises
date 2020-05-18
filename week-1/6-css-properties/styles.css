@@ -1,1 +1,16 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+.message {
+  font-size: 0.9rem;
+  line-height: 3;
+}
+.message--unread {
+  border-left: 3px solid blue;
+}
+.message--old {
+  opacity: 0.5;
+}
