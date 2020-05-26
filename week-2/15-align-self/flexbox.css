@@ -3,3 +3,38 @@
 }
 
 /* Add your own CSS code below */
+/*First*/
+.countries--first .country--ethiopia {
+  align-self: flex-end;
+}
+/*Second*/
+.countries--second {
+  align-items: center;
+}
+.countries--second .country--ethiopia {
+  align-self: flex-end;
+}
+/*Third*/
+.countries--third .country--brazil {
+  align-self: flex-start;
+}
+.countries--third .country--croatia {
+  align-self: flex-end;
+}
+.countries--third .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--third .country--laos {
+  align-self: flex-end;
+}
+.countries--third .country--uganda {
+  align-self: flex-start;
+}
+/*Fourth*/
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.countries--fourth .country--uganda {
+  align-self: center;
+}
