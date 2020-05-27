@@ -7,7 +7,25 @@
 }
 /*media queries for wider than 700px*/
 @media (min-width: 700px) {
+  header.site-header {
+    display: flex;
+  }
+
+  .site-header__logo {
+    align-self: flex-start;
+  }
+
   .site-header__nav {
     display: flex;
+    align-items: center;
+  }
+  .site-header__checkout {
+    align-self: center;
+  }
+}
+/*media queries for wider than 992px*/
+@media (min-width: 992px) {
+  header.site-header {
+    justify-content: center;
   }
 }
