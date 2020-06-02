@@ -1,1 +1,41 @@
 /* Add your own CSS code below */
+/*1*/
+span.red-heart {
+  color: #c85308;
+}
+/*3*/
+@media (min-width: 992px) {
+  article.hero h2.hero__title {
+    font-size: 70px;
+  }
+}
+/*5*/
+@media (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  /*6*/
+  article.views {
+    display: flex;
+    align-items: center;
+  }
+}
+/*4*/
+.main-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+/*11*/
+.main-article {
+  max-width: 50em;
+}
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article p {
+  line-height: 1.7em;
+}
